@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    /* background: linear-gradient(to bottom right, #ffcccc, #ff99cc, #cc99ff);  */
+
+
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+    color: #ff99cc;
+} 
+/* head{
+    display: flex;
+    background: red;
+}
+nav ul {
+    
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+li{
+    display: flex;
+    flex-direction: column;
+}
+nav li {
+    float: right;
+    
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+} */
+/* Basic styling for the hero section */
+.hero {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-image: url(/images/emmanuel-ikwuegbu-h5xEHzfepNk-unsplash.jpg); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the text */
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to the text for better visibility */
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Optional: Add additional styles for the text content */
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    font-family: Arial, sans-serif; 
+    /* background: #333; */
+    background: linear-gradient(to bottom right, #ffcccc, #ff99cc, #cc99ff); /* Linear gradient background */
+
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Gradient background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
+}
+.box:hover {
+    transform: translateY(-5px); /* Hover effect - move div slightly up */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Hover effect - increase shadow */
+}
+button{
+    border: none;
+    padding: 5px;
+    background: rgb(44, 41, 41);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+.contact{
+    display: grid;
+    place-items: center;
+    background: #ffcccc;
+    height: 250px;
+    align-items: center;
+}
+.contact h1,.sub-contact {
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.input-wrapper{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     margin-top: 10px;
+}
+.input-wrapper input{
+    width: 200px;
+    padding: 5px 10px;
+}
+::placeholder{
+    letter-spacing: 1px;
+}
+.input-wrapper button{
+    background: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.input-wrapper a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-input{
+    display: flex;
+    gap: 50px;
+}
+.sub-contact p{
+    margin-top: 10px;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) 
+{
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+     }
