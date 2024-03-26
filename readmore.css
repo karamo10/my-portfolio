@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+
+    /* background: #888cb3; */
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.raed-more{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #35374b;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
+}
+p{
+    color: aliceblue;
+    width: 350px;
+    height: 315px;
+}

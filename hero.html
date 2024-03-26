@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>portfilio</title>
     <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
+    <nav class="nav-desktop">
       <div class="logo">
         <img src="/images/Screenshot_20240321-162525-1.jpg" alt="" />
       </div>
@@ -24,8 +28,11 @@
           I'm diving into the exciting world of web development and eager to
           share my progress with you. Whether you're here to learn alongside me
           or explore the projects I've been working on, you've come to the right
-          place.
-        </p>
+          place.<span id="dots">...</span><span id="more">Over the past five months, I has embarked on an exhilarating journey into the world of web development. Each day has been filled with exploration, challenges, and countless moments of discovery as Idelved deeper into the intricacies of this dynamic field.
+
+        </span></p>
+        <button onclick="myFunction()" id="my-btn">Read more...</button>
+
       </div>
     </div>
     <div class="container">
@@ -65,6 +72,30 @@
         <button>Embark on JavaScript</button>
       </div>
     </div>
+
+<!-- PROJECT SECTION -->
+<div class="project-brief">
+  <h2>my projects</h2>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit beatae nostrum pariatur commodi rerum nesciunt unde ea, eveniet, aut deserunt, itaque ullam deleniti soluta</p>
+</div>
+    <div class="projects">
+    
+      <div class="card">
+       <p><a href="https://websitebypabicamz.netlify.app/"><img src="/images/todo-website.png" alt=""></a></p>    
+      </div>
+      <div class="card">
+        <p><a href="https://websiteby-pabicamz.netlify.app/"><img src="/images/html-structure.png" alt=""></a></p>
+      </div>
+      <div class="card">
+        <p><a href="https://facebooklogo-pabicamz.netlify.app/"><img src="/images/facebook_logo.png" alt=""></a></p>
+      </div>
+      <!-- <div class="card"><img src="/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg" alt=""></div> -->
+    </div>
+<!-- PROJECT SECTION -->
+<!-- <p><a href="https://www.w3schools.com">
+  <img src="w3html.gif" alt="W3Schools.com" width="100" height="132"> -->
+  </a></p>
+
     <div class="contact">
       <h1>contact</h1>
       <div class="contact-input">
@@ -73,10 +104,10 @@
           <p>New jeshwang</p>
         </div>
         <div class="input-wrapper">
-          <input type="name" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Message" />
-          <button><a href="#">Send</a></button>
+          <input class="input1" type="name" placeholder="Name" required name="Name" />
+          <input class="input2" type="email" placeholder="Email" required name="Email"/>
+          <input class="input3" type="text" placeholder="Message" required name="Message"/>
+          <span><a href="###">Send</a></span>
         </div>
       </div>
     </div>
@@ -84,5 +115,6 @@
       &COPY; copyright 2024 <br />
       author: pabicamara
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
